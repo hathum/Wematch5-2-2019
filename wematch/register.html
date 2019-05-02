@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/register.css">
+    <script src="main.js"></script>
+</head>
+    <body id = "body">
+        <div class="grid-container">
+            <div class = "grid-logo">
+                <img src="picture/logo.png" id = "logo">
+                <br>
+            </div>
+            <div class = "grid-input">
+				<input type="text"  class="input" placeholder="E-mail" required>
+				<br>
+				
+				<input type="tel"  class="input" placeholder="Telephone" pattern = "[0-9]{10}" maxlength="10" required>
+                <br>
+               
+                <input type="password"  class="input" placeholder="Password" required>
+                <br>
+               
+                <input type="password"  class="input" placeholder="Re-Password" required>
+                <br>
+            </div>
+            <div class = "grid-register">
+                    
+                        <button type="button" class="button" id = "button-back" onclick="alert('BACK!')">BACK</button>
+                   
+                        <button type="button"  class="button" id = "button-regis" onclick="alert('REGISTER')">REGISTER</button>
+                   
+            </div>
+            
+        </div>
+    </body>
+</html>
